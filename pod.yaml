@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: config-test
+spec:
+  containers:
+  - name: config-test
+    image: gaoxin2020/config-test:v1
